@@ -4,13 +4,14 @@ chrome.webRequest.onBeforeRequest.addListener(
     ["blocking"]
 )
 
+
 defaultFilters = [
     "*://*.doubleclick.net/*",
     "*://*.google-analytics.com/*",
     "*://*.exponential.com/*",
     "*://*.adbrite.com/*",
     "*://*.zedo.com/*",
-    "*://*.patner.googleadservices.com/*",
+    "*://patner.googleadservices.com/*",
     "*://*.quantserve.com/*",
     "*://*.scorecardresearch.com/*",
 ]

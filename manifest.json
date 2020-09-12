@@ -3,7 +3,7 @@
     "name": "AdBlocker",
     "version": "1.0.0",
     "description": "Blocks ads from appearing on your website",
-    "permissions": ["webRequest", "webRequestBlocking", "<call_urls>"],
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
     "background": {
         "scripts": ["background.js"]
     },
